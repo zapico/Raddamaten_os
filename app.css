@@ -1,0 +1,171 @@
+/* @font-face {
+    font-family: house-script;
+    src: url("images/SignPainter HouseScript Regular.ttf");
+} */
+
+footer {
+position: fixed;
+height: 100px;
+bottom: 0;
+width: 100%;
+}
+.img_text {
+    font-size: 24px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bd {
+    /* background-image: url("images/frontpage1.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center top; */
+    /* font-family: house-script, sans-serif; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/frontpage3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.fileContainer {
+    /* background: red; */
+    border: solid;
+    color: #007bff;
+    border-width: 1px;
+    background-color: transparent;
+    border-color: #007bff;
+    border-radius: .25em;
+    float: left;
+    padding: .375rem .75rem;
+}
+.img_kth {
+  height: 54px;
+  width: 54px;
+}
+.img_logo {
+  height: 70px;
+  width: 70px;
+}
+.fileContainer [type=file] {
+    cursor: pointer;
+}
+.normal {
+    font-family: "Times New Roman", Times, serif;;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+.opac {
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.rotateimg180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+/* unvisited link */
+    a.cust:link {
+    text-decoration: none;
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    color: white;
+    /* font-style: oblique; */
+    font-size: 30px;
+    /* font-family: house-script, sans-serif; */
+    font-style: normal;
+    font-weight: 400;
+    /* text-align: right; */
+        }
+
+    a.cust:visited {
+        text-decoration: none;
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    color: white;
+    /* font-style: oblique; */
+    /* font-family: house-script, sans-serif; */
+    font-style: normal;
+    font-weight: 400;
+    /* text-align: right; */
+    }
+
+    a.cust:hover {
+        text-decoration: underline;
+    }
+
+    a.cust:active {
+        text-decoration: underline;
+    }
+
+a {
+    color: black;
+}
+
+hover {
+    color: black;
+    text-decoration: none;
+}
+#main_header {
+  margin-top: 1%;
+}
+#main_logo {
+  width: 25%;
+  margin-top:3%;
+  margin-bottom:3%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main_menu{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.btnmenu{
+  height: 40px;
+  text-align:center;
+  vertical-align: middle;
+}
+#start_logo{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.startmenu{
+  padding:4%;
+  color:white;
+  text-align: center;
+}
+.startmenu h3{
+  color:white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.5em;
+}
